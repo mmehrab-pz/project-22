@@ -1,0 +1,102 @@
+@media screen and (max-width: 576px) {
+  #box {
+    width: 90%;
+    min-height: 500px;
+  }
+  header > ul {
+    width: 100%;
+  }
+  #welcome > h2 {
+    font-size: 50px;
+  }
+  #home {
+    padding-left: 5%;
+  }
+  #home > h1 {
+    width: 95%;
+  }
+  #home > p {
+    width: 95%;
+  }
+  #home > div > div {
+    width: 190px;
+  }
+  #contact-form > input,
+  #contact-form textarea {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 576px) {
+  #box {
+    width: 90%;
+    min-height: 500px;
+  }
+  header > ul {
+    width: 100%;
+  }
+  #home {
+    padding-left: 5%;
+  }
+  #home > h1 {
+    width: 95%;
+  }
+  #home > p {
+    width: 95%;
+  }
+  #home > div > div {
+    width: 190px;
+  }
+  #contact-form > input,
+  #contact-form textarea {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #home {
+    padding-left: 10%;
+  }
+  #home > h1 {
+    width: 50%;
+  }
+  #home > p {
+    width: 55%;
+  }
+  #home > div > div {
+    width: 230px;
+  }
+  #contact-form > input,
+  #contact-form textarea {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #box {
+    width: 80%;
+    min-height: 500px;
+  }
+  header > ul {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #box {
+    width: 75%;
+    min-height: 500px;
+  }
+  header > ul {
+    width: 70%;
+  }
+  #contact-form > input,
+  #contact-form textarea {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #box {
+    width: 60%;
+    min-height: 500px;
+  }
+  header > ul {
+    width: 60%;
+  }
+}/*# sourceMappingURL=local.css.map */

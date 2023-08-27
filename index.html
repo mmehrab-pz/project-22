@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="asset/styles/normalize.css">
+    <link rel="stylesheet" href="asset/styles/master.css">
+    <link rel="stylesheet" href="asset/styles/local.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <video src="asset/img/back-1.mp4" autoplay loop muted></video>
+    <section id="box">
+        <header>
+            <ul id="mmd">
+                <li onclick="change(this)">home</li>
+                <li onclick="change(this)">about</li>
+                <li onclick="change(this)">gallery</li>
+                <li onclick="change(this)">contact</li>
+            </ul>
+        </header>
+        <section id="welcome">
+            <h2>welcome</h2>
+        </section>
+        <div id="home">
+            <h1>
+                Hey, would you like to learn how to create a <span>generative</span> UI just like this?
+            </h1>
+            <p>
+                In this tutorial we will be creating a generative “orb” animation using pixi.js, picking some lovely
+                random colors and pulling it all together in a nice frosty UI.<span> We're gonna talk accessibility,
+                    too.</span>
+            </p>
+            <div>
+                <div>view tutorial</div>
+                <div>randomise colors</div>
+            </div>
+            <img class="d-none d-lg-block" src="asset/img/blue-man.webp" alt="">
+        </div>
+
+        <div id="about" class="row">
+            <div class="col-12 col-lg-6" id="about-text">
+                <h5>who we are</h5>
+                <h3>We Spend 30,000 Hours Per Year To Virus Threats</h3>
+                <p>
+                    Fugiat nulla pariatur excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa rui officia deserunt mollit anim id est
+                    laborum incidunt ut labore et dolore magnam.
+                </p>
+                <div>learn more</div>
+            </div>
+            <div class="d-none d-lg-flex col-6" id="about-img">
+                <figure>
+                    <img src="asset/img/about-img.webp" alt="">
+                </figure>
+            </div>
+        </div>
+
+        <div id="gallery">
+            <div id="gallery-title">
+                <h5>gallery</h5>
+            </div>
+            <div id="gallery-cards" class="row">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/5.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/6.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/7.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/8.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="asset/img/9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="contact">
+            <div id="contact-title">
+                <h5>contact us</h5>
+            </div>
+            <form id="contact-form">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="example@gmail.com">
+                <textarea placeholder="write for us"></textarea>
+                <button>send</button>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="asset/js/master.js"></script>
+
+</html>
